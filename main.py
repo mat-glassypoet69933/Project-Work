@@ -1,3 +1,19 @@
+"""
+Simulatore Produzione:
+Programma di simulazione di un processo produttivo alimentato 
+con dati random riguardo sia la quantità di prodotti da produrre, 
+sia i tempi di svolgimento in range di alcune operazioni.
+Il programma consente di avere una visuale generale di tutte le operazioni
+necessarie al completamento del prodotto, consentendo l'aggiunta di nuove operazioni
+con nomi, tempi, capacità e macchinari dedicati, producendo infine in output
+i tempi relativi a tutti i prodotti secondo le operazioni e le quantità inserite.
+
+Release 1.0 del 05/04/2025
+Autore: Mattia Sicoli 
+Matricola studente: 0312302064
+
+"""
+
 #Import librerie necessarie
 import sys
 import random
@@ -257,7 +273,7 @@ class AddOperationDialog(QDialog):
         self.save_default = QCheckBox("Salva come Default")
         self.confirm_btn = QPushButton("Conferma")
         
-        #Funzionalità di base pulsanti
+        #Proprietà pulsanti
         self.prodotto_select.addItems(["Codolo ORFS 12-10", "Ghiera AD1-08", "Tubo raccordato"]) #Aggiunge alla ComboBox la lista di prodotti
         self.macchinario_select.addItems(["Pressa", "Taglierina", "Multimandrino Schutte", "Manuale", "Lavatrice", "Forno", "Nastro trasportatore", "Banco prova 400ATM"]) #Aggiunge alla ComboBox la lista dei macchinari
         self.radio_determinato.setChecked(True) #Imposta il tasto Tempo determinato checkato di default
