@@ -1,0 +1,192 @@
+{
+    "Codolo ORFS 12-10": [
+        {
+            "nome": "6 posizioni mm6",
+            "macchinario": "Multimandrino Schutte",
+            "tempo_min": 16,
+            "tempo_max": 16,
+            "capacity_max": "1",
+            "prodotto": "Codolo ORFS 12-10"
+        },
+        {
+            "nome": "trasporto a lavaggio",
+            "macchinario": "Nastro trasportatore",
+            "tempo_min": 60,
+            "tempo_max": 60,
+            "capacity_max": "1200",
+            "prodotto": "Codolo ORFS 12-10"
+        },
+        {
+            "nome": "Lavaggio",
+            "macchinario": "Lavatrice",
+            "tempo_min": 2400,
+            "tempo_max": 3000,
+            "capacity_max": "1200",
+            "prodotto": "Codolo ORFS 12-10"
+        },
+        {
+            "nome": "Cottura",
+            "macchinario": "Forno",
+            "tempo_min": 6000,
+            "tempo_max": 8400,
+            "capacity_max": "1200",
+            "prodotto": "Codolo ORFS 12-10"
+        },
+        {
+            "nome": "Zincatura",
+            "macchinario": "Manuale",
+            "tempo_min": 86400,
+            "tempo_max": 172800,
+            "capacity_max": "1200",
+            "prodotto": "Codolo ORFS 12-10"
+        },
+        {
+            "nome": "Dado serraggio",
+            "macchinario": "Manuale",
+            "tempo_min": 10,
+            "tempo_max": 15,
+            "capacity_max": "1",
+            "prodotto": "Codolo ORFS 12-10"
+        }
+    ],
+    "Ghiera AD1-08": [
+        {
+            "nome": "6 posizioni mm6",
+            "macchinario": "Multimandrino Schutte",
+            "tempo_min": 16,
+            "tempo_max": 16,
+            "capacity_max": "1",
+            "prodotto": "Ghiera AD1-08"
+        },
+        {
+            "nome": "trasporto a lavaggio",
+            "macchinario": "Nastro trasportatore",
+            "tempo_min": 60,
+            "tempo_max": 60,
+            "capacity_max": "1200",
+            "prodotto": "Ghiera AD1-08"
+        },
+        {
+            "nome": "Lavaggio",
+            "macchinario": "Lavatrice",
+            "tempo_min": 2400,
+            "tempo_max": 3000,
+            "capacity_max": "1200",
+            "prodotto": "Ghiera AD1-08"
+        },
+        {
+            "nome": "Cottura",
+            "macchinario": "Forno",
+            "tempo_min": 6000,
+            "tempo_max": 8400,
+            "capacity_max": "1200",
+            "prodotto": "Ghiera AD1-08"
+        },
+        {
+            "nome": "Zincatura",
+            "macchinario": "Manuale",
+            "tempo_min": 86400,
+            "tempo_max": 172800,
+            "capacity_max": "1200",
+            "prodotto": "Ghiera AD1-08"
+        }
+    ],
+    "Tubo raccordato": [
+        {
+            "nome": "Inserimento in taglierina",
+            "macchinario": "Manuale",
+            "tempo_min": 180,
+            "tempo_max": 300,
+            "capacity_max": "100",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Taglio",
+            "macchinario": "Taglierina",
+            "tempo_min": 30,
+            "tempo_max": 40,
+            "capacity_max": "1",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Trasporto",
+            "macchinario": "Nastro trasportatore",
+            "tempo_min": 10,
+            "tempo_max": 10,
+            "capacity_max": "5",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Inserimento ghiera",
+            "macchinario": "Manuale",
+            "tempo_min": 10,
+            "tempo_max": 10,
+            "capacity_max": "1",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Inserimento codolo",
+            "macchinario": "Manuale",
+            "tempo_min": 10,
+            "tempo_max": 10,
+            "capacity_max": "1",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Trasporto a pressa",
+            "macchinario": "Pressa",
+            "tempo_min": 10,
+            "tempo_max": 10,
+            "capacity_max": "5",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Pressatura",
+            "macchinario": "Pressa",
+            "tempo_min": 10,
+            "tempo_max": 15,
+            "capacity_max": "1",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Marcatura cliente su ghiera",
+            "macchinario": "Manuale",
+            "tempo_min": 10,
+            "tempo_max": 10,
+            "capacity_max": "1",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Montaggio catena tubi",
+            "macchinario": "Manuale",
+            "tempo_min": 600,
+            "tempo_max": 900,
+            "capacity_max": "10",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Test ad alta pressione",
+            "macchinario": "Banco prova 400ATM",
+            "tempo_min": 270,
+            "tempo_max": 270,
+            "capacity_max": "10",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Smontaggio catena",
+            "macchinario": "Manuale",
+            "tempo_min": 600,
+            "tempo_max": 900,
+            "capacity_max": "10",
+            "prodotto": "Tubo raccordato"
+        },
+        {
+            "nome": "Controllo qualit\u00e0 a vista",
+            "macchinario": "Manuale",
+            "tempo_min": 60,
+            "tempo_max": 60,
+            "capacity_max": "1",
+            "prodotto": "Tubo raccordato"
+        }
+    ]
+}
