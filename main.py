@@ -13,7 +13,7 @@ DEFAULT_FILE = "default_operations.json"
 #Creazione classe oggetto operation
 class Operation:
     """
-    Classe operation: contiene tutti i parametri dell'oggetto Operation e le funzioni di get/set e lettura e scrittura da dizionario
+    Classe operation: contiene tutti i parametri dell'oggetto Operation e le funzioni di get/set e lettura e scrittura dizionario
     per interpretazione file JSON
     """
     #Funzione inizializzazione parametri oggetto classe
@@ -51,7 +51,7 @@ class Operation:
             "prodotto": self.prodotto
         }
 
-    #Funzione per inversione dati da file json a dizionario utilizzando decorotara staticmethod per creare un'istanza rapida senza creazione oggetto
+    #Funzione per conversione dati da file json a dizionario utilizzando decorotara staticmethod per creare un'istanza rapida senza creazione oggetto
     @staticmethod
     def from_dict(data):
         return Operation(data["nome"], data["macchinario"], data["tempo_min"], data["tempo_max"], data["capacity_max"], prodotto=data["prodotto"])
@@ -225,7 +225,9 @@ class SimulationWindow(QWidget):
             for row, operation in enumerate(self.parent.operations[prodotto]):
                 item = QTableWidgetItem(f"{operation.nome}, {operation.macchinario}, {operation.capacity_max}, ({operation.tempo_min}s - {operation.tempo_max}s), {operation.get_tempo_esecuzione()}s") #Definisce la stringa descrittiva dell'operazione composta da: nome, macchinario, capacità massima, range temporale, tempo random generato
                 self.table.setItem(row, col, item) #Aggiunge effettivamente l'item alla tabella
-
+        #Resize automatico righe e colonne in base al contenuto
+        self.table.resizeColumnsToContents()
+        self.table.resizeRowsToContents()
 
 
 class AddOperationDialog(QDialog):
